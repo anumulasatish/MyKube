@@ -35,6 +35,7 @@
                     <!--
                         Enables Kubernetes IP finder with default settings.
                     -->
+					<property name="masterUrl"   value="https://pltsrv-dev4-eun-k8s-clstr-master.northeurope.cloudapp.azure.com"/>
 					<property name="namespace" value="ssi"/>
                     <bean
                         class="org.apache.ignite.spi.discovery.tcp.ipfinder.kubernetes.TcpDiscoveryKubernetesIpFinder"/>
