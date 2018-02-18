@@ -36,7 +36,7 @@
                         Enables Kubernetes IP finder with default settings.
                     -->
                     <bean class="org.apache.ignite.spi.discovery.tcp.ipfinder.kubernetes.TcpDiscoveryKubernetesIpFinder">
-			    <property name="masterUrl" value="http://kubernetes.default"/>
+			    <property name="masterUrl" value="https://kubernetes.default:443"/>
 			    <property name="namespace" value="ssi"/>
 		    </bean>	
                 </property>
